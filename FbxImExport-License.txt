@@ -1,0 +1,7 @@
+FbxImExport - v1.0 library for
+Analyse fbx file and translate to to Mydefined and common data
+
+ Copyright zbq 2021.
+ All Rights Reserved.
+ 
+ This software may be used by anyone for any reason 
