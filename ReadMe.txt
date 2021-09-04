@@ -1,3 +1,5 @@
+Analyse fbx file and translate to to Mydefined and common data,Mesh/Material Supported
+
 #include "loadFbxC.h"
 void Import(const std::string &fbxPath)
 {
@@ -5,7 +7,7 @@ void Import(const std::string &fbxPath)
            	 ios.ConvertToAxis = 2;
             	ios.ConvertToUnit = 2;
             	ios.progress = progressFunction;
-	void* _scene=0;
+		void* _scene=0;
             	loadFbxMemory(fbxPath, _scene, &ios);
 
             	MeshIO::FbxFullData* fulldata = (MeshIO::FbxFullData*)(_scene);
